@@ -63,7 +63,7 @@ summaryLength = 30
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
-    style = 'github'
+    style = 'monokai'
     lineNos = true
     lineNumbersInTable = false
     tabWidth = 4
