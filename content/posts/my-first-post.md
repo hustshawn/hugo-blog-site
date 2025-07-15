@@ -1,14 +1,13 @@
 +++
-date = '2025-07-14T23:20:47+08:00'
-draft = false
 title = 'Welcome to My Blog!'
+date = 2025-07-14T23:20:47+08:00
+draft = false
 tags = ['welcome', 'introduction']
 categories = ['general']
+summary = "My first blog post using Hugo and the Blowfish theme. I'm excited to share my thoughts and experiences here."
 +++
 
-# Welcome to My Blog!
-
-This is my first blog post using Hugo and the PaperMod theme. I'm excited to share my thoughts and experiences here.
+This is my first blog post using Hugo and the beautiful Blowfish theme. I'm excited to share my thoughts and experiences here.
 
 ## What You Can Expect
 

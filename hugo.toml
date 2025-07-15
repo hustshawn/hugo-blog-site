@@ -3,9 +3,21 @@ languageCode = 'en-us'
 title = 'My Blog'
 theme = 'PaperMod'
 
+enableRobotsTXT = true
+summaryLength = 30
+
+[pagination]
+  pagerSize = 10
+
 [params]
+  env = "production"
   author = "Your Name"
-  description = "A simple blog built with Hugo"
+  description = "A clean, professional blog"
+  keywords = ["blog", "hugo", "programming"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "light"
+  disableThemeToggle = false
+  
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -21,28 +33,37 @@ theme = 'PaperMod'
   hideSummary = false
   showtoc = false
   tocopen = false
-
-[params.homeInfoParams]
-  Title = "Welcome to My Blog"
-  Content = "A place where I share my thoughts and experiences"
-
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/[your-username]"
+  
+  [params.homeInfoParams]
+    Title = "Welcome to My Blog"
+    Content = "A place where I share my thoughts and experiences"
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/[your-username]"
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
-    weight = 20
+    weight = 10
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 30
+    weight = 20
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'github'
+    lineNos = true
+    lineNumbersInTable = false
+    tabWidth = 4

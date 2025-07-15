@@ -1,10 +1,9 @@
 +++
-date = '2025-07-14T23:21:11+08:00'
-draft = false
 title = 'About Me'
+date = 2025-07-14T23:21:11+08:00
+draft = false
+summary = "Learn more about me, what I do, and how to get in touch."
 +++
-
-# About Me
 
 Welcome to my blog! I'm passionate about technology, coding, and sharing knowledge with the community.
 
@@ -24,4 +23,4 @@ Feel free to reach out if you have any questions or just want to connect!
 
 ## About This Site
 
-This blog is built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on GitHub Pages.
+This blog is built with [Hugo](https://gohugo.io/) using the [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) theme with custom typography and hosted on GitHub Pages.
