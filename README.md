@@ -7,11 +7,13 @@ A simple blog built with Hugo and the PaperMod theme, ready for GitHub Pages dep
 ### Local Development
 
 1. Install Hugo (if not already installed):
+
    ```bash
    brew install hugo  # macOS
    ```
 
 2. Clone this repository:
+
    ```bash
    git clone <your-repo-url>
    cd blog-site
@@ -19,6 +21,7 @@ A simple blog built with Hugo and the PaperMod theme, ready for GitHub Pages dep
    ```
 
 3. Start the development server:
+
    ```bash
    hugo server -D
    ```
@@ -28,6 +31,7 @@ A simple blog built with Hugo and the PaperMod theme, ready for GitHub Pages dep
 ### Creating New Posts
 
 Create a new blog post:
+
 ```bash
 hugo new posts/my-new-post.md
 ```
@@ -38,7 +42,7 @@ Edit the markdown file in `content/posts/` and set `draft = false` when ready to
 
 This blog is configured to automatically deploy to GitHub Pages using GitHub Actions.
 
-#### Setup Instructions:
+#### Setup Instructions
 
 1. **Create a GitHub repository** for your blog
 2. **Push this code** to your repository
@@ -50,9 +54,10 @@ This blog is configured to automatically deploy to GitHub Pages using GitHub Act
    - Edit `hugo.toml` and update the `baseURL` to match your GitHub Pages URL
    - Update social links and personal information
 
-#### Manual Deployment:
+#### Manual Deployment
 
 If you prefer manual deployment:
+
 ```bash
 hugo --gc --minify
 # Then upload the contents of the 'public' folder to your web server
@@ -63,6 +68,7 @@ hugo --gc --minify
 ### Site Configuration
 
 Edit `hugo.toml` to customize:
+
 - Site title and description
 - Author information
 - Social media links
@@ -77,7 +83,7 @@ Edit `hugo.toml` to customize:
 
 ### Theme Customization
 
-This blog uses the [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod). 
+This blog uses the [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod).
 Check their documentation for advanced customization options.
 
 ## File Structure
